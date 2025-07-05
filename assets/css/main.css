@@ -1451,6 +1451,24 @@ section,
   color: var(--accent-color);
 }
 
+.qr-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.qr-item {
+  text-align: center;
+  margin: 1rem;
+}
+
+.qr-text {
+  font-size: 12.5pt;
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
